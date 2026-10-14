@@ -1,0 +1,151 @@
+{
+  "id": "b88c032a-4afc-4634-ab5f-06a1a1c17009",
+  "version": 0,
+  "config": {
+    "tournament": "NIGHTFALL INVITATIONAL",
+    "stage": "PLAYOFFS / UPPER BRACKET",
+    "title": "Upper bracket final",
+    "subtitle": "The road to the final starts here.",
+    "date": "2026-10-13",
+    "teams": {
+      "A": {
+        "name": "PHANTOM",
+        "logo": "",
+        "color": "#ff4655",
+        "seed": "01"
+      },
+      "B": {
+        "name": "NOVA",
+        "logo": "",
+        "color": "#61d9c6",
+        "seed": "02"
+      }
+    },
+    "format": 3,
+    "first": "A",
+    "maps": [
+      {
+        "id": "ascent",
+        "name": "Ascent",
+        "art": "/art/ascent.svg",
+        "enabled": true
+      },
+      {
+        "id": "bind",
+        "name": "Bind",
+        "art": "/art/bind.svg",
+        "enabled": true
+      },
+      {
+        "id": "haven",
+        "name": "Haven",
+        "art": "/art/haven.svg",
+        "enabled": true
+      },
+      {
+        "id": "icebox",
+        "name": "Icebox",
+        "art": "/art/icebox.svg",
+        "enabled": true
+      },
+      {
+        "id": "lotus",
+        "name": "Lotus",
+        "art": "/art/lotus.svg",
+        "enabled": true
+      },
+      {
+        "id": "split",
+        "name": "Split",
+        "art": "/art/split.svg",
+        "enabled": true
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "art": "/art/sunset.svg",
+        "enabled": true
+      }
+    ],
+    "sequence": [
+      {
+        "kind": "BAN",
+        "team": "A",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "BAN",
+        "team": "B",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "PICK",
+        "team": "A",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "PICK",
+        "team": "B",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "BAN",
+        "team": "A",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "BAN",
+        "team": "B",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "DECIDER",
+        "team": "A",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "SIDE",
+        "team": "B",
+        "label": "",
+        "mapIndex": 0
+      },
+      {
+        "kind": "SIDE",
+        "team": "A",
+        "label": "",
+        "mapIndex": 1
+      },
+      {
+        "kind": "SIDE",
+        "team": "A",
+        "label": "",
+        "mapIndex": 2
+      }
+    ],
+    "branding": {
+      "logo": "",
+      "background": ""
+    },
+    "presentation": {
+      "mode": "INTRO",
+      "transparent": false,
+      "compact": false,
+      "reducedMotion": false,
+      "speed": "NORMAL",
+      "sound": false
+    }
+  },
+  "actions": [],
+  "cursor": 0,
+  "phase": "READY",
+  "archived": false,
+  "audit": [],
+  "requestIds": []
+}
